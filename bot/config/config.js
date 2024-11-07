@@ -7,7 +7,7 @@ const settings = {
       : process.env.API_ID && !/^\d+$/.test(process.env.API_ID)
       ? "N/A"
       : undefined,
-  API_HASH: process.env.API_HASH || "",
+  API_HASH: process.env.API_HASH || "6703e6a286a89062987e9f65",
 
   AUTO_APPLY_TURBO: process.env.AUTO_APPLY_TURBO
     ? process.env.AUTO_APPLY_TURBO.toLowerCase() === "true"
