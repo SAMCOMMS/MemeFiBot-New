@@ -29,7 +29,7 @@ const main = async () => {
       logger.versionWarning(
         `You are using version <bl>${version}</bl> of the ${name} bot, while the latest version is <lb>${latestVersion.data.version}</lb>. Please update the bot.\n\n`
       );
-      process.exit(1);
+      process.exit(2);
     }
     await main();
   } catch (error) {
